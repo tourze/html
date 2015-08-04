@@ -2,6 +2,7 @@
 
 namespace tourze\Html;
 
+use tourze\Base\Exception\UnknownPropertyException;
 use tourze\Html\Feature\Base;
 use tourze\Html\Feature\Common;
 use tourze\Html\Feature\EventHandlers;
@@ -77,6 +78,24 @@ class Tag extends Html
 
         parent::__construct($args);
         $this->_innerBody = $body;
+    }
+
+    /**
+     * 如果属性不存在，不抛出异常，照常插入
+     *
+     * @param string $name
+     * @param mixed  $value
+     */
+    public function __set($name, $value)
+    {
+        try
+        {
+            parent::__set($name, $value);
+        }
+        catch (UnknownPropertyException $e)
+        {
+            $this->setAttribute($name, $value);
+        }
     }
 
     /**
