@@ -157,4 +157,18 @@ class A extends Tag implements InlineElement
         $this->setAttribute('type', $type);
     }
 
+    /**
+     * @inheritdoc
+     */
+    protected function render()
+    {
+        // 自动添加body段
+        if ( ! $this->_innerBody)
+        {
+            $this->_innerBody = $this->getAttribute('href');
+        }
+
+        return parent::render();
+    }
+
 }
