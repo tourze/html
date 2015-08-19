@@ -2,6 +2,11 @@
 
 namespace tourze\Html\Feature;
 
+/**
+ * 一些基础的方法
+ *
+ * @package tourze\Html\Feature
+ */
 trait Base
 {
 
@@ -49,7 +54,6 @@ trait Base
      * 读取指定属性值
      *
      * @param $name
-     *
      * @return null|string|array
      */
     protected function getAttribute($name)
@@ -74,12 +78,11 @@ trait Base
     /**
      * 合并属性值
      *
+     * @param array $attributes
      * @return string
      */
-    protected function combineAttributes()
+    public static function attributes(array $attributes)
     {
-        $attributes = $this->_attributes;
-
         // 对属性进行排序
         $sorted = [];
         foreach (self::$attributeOrder as $key)
@@ -97,16 +100,13 @@ trait Base
         {
             if (null === $value)
             {
-                // Skip attributes that have null values
                 continue;
             }
 
-            // Add the attribute key
             $compiled .= ' ' . strtolower($key);
 
             if ($value)
             {
-                // Add the attribute value
                 $compiled .= '="' . self::chars($value) . '"';
             }
         }
@@ -115,18 +115,29 @@ trait Base
     }
 
     /**
-     * Convert special characters to HTML entities. All untrusted content
-     * should be passed through this method to prevent XSS injections.
+     * 合并属性值
+     *
+     * @return string
+     */
+    protected function combineAttributes()
+    {
+        $attributes = $this->_attributes;
+
+        return self::attributes($attributes);
+    }
+
+    /**
+     * 转换一些特殊字符为实体，防止部分xss
+     *
      *     echo self::chars($username);
      *
-     * @param   string  $value        string to convert
-     * @param   boolean $doubleEncode encode existing entities
-     *
-     * @return  string
+     * @param  string  $value  要转换的字符串
+     * @param  boolean $encode 再编码已经存在的实体
+     * @return string
      */
-    public static function chars($value, $doubleEncode = true)
+    public static function chars($value, $encode = true)
     {
-        return htmlspecialchars((string) $value, ENT_QUOTES, 'utf-8', $doubleEncode);
+        return htmlspecialchars((string) $value, ENT_QUOTES, 'utf-8', $encode);
     }
 
 }
