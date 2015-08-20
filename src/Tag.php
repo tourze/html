@@ -13,25 +13,26 @@ use tourze\Html\Feature\StandardEventAttributes;
 /**
  * HTML标签基础类
  *
- * @property string  body             内容
- * @property mixed   accessKey        规定激活元素的快捷键
- * @property mixed   class            规定元素的一个或多个类名（引用样式表中的类）。
- * @property mixed   contentEditable  规定元素内容是否可编辑。
- * @property mixed   contextMenu      规定元素的上下文菜单。上下文菜单在用户点击元素时显示。
- * @property mixed   dir              规定元素中内容的文本方向。
- * @property mixed   draggable        规定元素是否可拖动。
- * @property mixed   dropZone         规定在拖动被拖动数据时是否进行复制、移动或链接。
- * @property mixed   hidden           规定元素仍未或不再相关。
- * @property mixed   id               规定元素的唯一 id。
- * @property mixed   lang             规定元素内容的语言。
- * @property mixed   spellCheck       规定是否对元素进行拼写和语法检查。
- * @property mixed   style            规定元素的行内 CSS 样式。
- * @property mixed   tabIndex         规定元素的 tab 键次序。
- * @property mixed   title            规定有关元素的额外信息。
- * @property mixed   translate        规定是否应该翻译元素内容。
- * @method   mixed   combineAttributes()
- * @method   $this    setAttribute($name, $value)
- * @method   null|string|array getAttribute($name)
+ * @property string body             内容
+ * @property mixed  accessKey        规定激活元素的快捷键
+ * @property mixed  class            规定元素的一个或多个类名（引用样式表中的类）。
+ * @property mixed  contentEditable  规定元素内容是否可编辑。
+ * @property mixed  contextMenu      规定元素的上下文菜单。上下文菜单在用户点击元素时显示。
+ * @property mixed  dir              规定元素中内容的文本方向。
+ * @property mixed  draggable        规定元素是否可拖动。
+ * @property mixed  dropZone         规定在拖动被拖动数据时是否进行复制、移动或链接。
+ * @property mixed  hidden           规定元素仍未或不再相关。
+ * @property mixed  id               规定元素的唯一 id。
+ * @property mixed  lang             规定元素内容的语言。
+ * @property mixed  spellCheck       规定是否对元素进行拼写和语法检查。
+ * @property mixed  style            规定元素的行内 CSS 样式。
+ * @property mixed  tabIndex         规定元素的 tab 键次序。
+ * @property mixed  title            规定有关元素的额外信息。
+ * @property mixed  translate        规定是否应该翻译元素内容。
+ * @method   mixed  combineAttributes()
+ * @method   mixed  attribute()
+ * @method   $this  setAttribute($name, $value)
+ * @method   string|array getAttribute($name)
  * @package tourze\Html
  */
 class Tag extends Html
@@ -149,7 +150,7 @@ class Tag extends Html
      *
      * @return string
      */
-    protected function render()
+    public function render()
     {
         if ( ! $this->_tagName)
         {

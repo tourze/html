@@ -38,7 +38,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHref()
     {
@@ -54,7 +54,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHrefLang()
     {
@@ -70,7 +70,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMedia()
     {
@@ -86,7 +86,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRel()
     {
@@ -102,7 +102,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSizes()
     {
@@ -118,7 +118,7 @@ class Link extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {

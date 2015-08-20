@@ -22,7 +22,7 @@ class Select extends Tag implements InlineElement
     protected $_tagName = 'select';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoFocus()
     {
@@ -38,7 +38,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDisabled()
     {
@@ -54,7 +54,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {
@@ -70,7 +70,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMultiple()
     {
@@ -86,7 +86,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -102,7 +102,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRequired()
     {
@@ -118,7 +118,7 @@ class Select extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSize()
     {

@@ -15,7 +15,7 @@ trait Common
      *
      * @param $name
      *
-     * @return null|string|array
+     * @return string|array
      */
     protected function getAttribute($name)
     {
@@ -34,7 +34,7 @@ trait Common
     /**
      * 规定激活元素的快捷键。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getAccessKey()
     {
@@ -54,7 +54,7 @@ trait Common
     /**
      * 读取class属性
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getClass()
     {
@@ -74,7 +74,7 @@ trait Common
     /**
      * 规定元素内容是否可编辑。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getContentEditable()
     {
@@ -94,7 +94,7 @@ trait Common
     /**
      * 规定元素的上下文菜单。上下文菜单在用户点击元素时显示。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getContextMenu()
     {
@@ -114,7 +114,7 @@ trait Common
     /**
      * 规定元素中内容的文本方向。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getDir()
     {
@@ -134,7 +134,7 @@ trait Common
     /**
      * 规定元素是否可拖动。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getDraggable()
     {
@@ -154,7 +154,7 @@ trait Common
     /**
      * 规定在拖动被拖动数据时是否进行复制、移动或链接。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getDropZone()
     {
@@ -174,7 +174,7 @@ trait Common
     /**
      * 规定元素仍未或不再相关。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getHidden()
     {
@@ -194,7 +194,7 @@ trait Common
     /**
      * 读取id属性
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getId()
     {
@@ -214,7 +214,7 @@ trait Common
     /**
      * 规定元素内容的语言。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getLang()
     {
@@ -234,7 +234,7 @@ trait Common
     /**
      * 规定是否对元素进行拼写和语法检查。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getSpellCheck()
     {
@@ -254,7 +254,7 @@ trait Common
     /**
      * 读取style属性
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getStyle()
     {
@@ -274,7 +274,7 @@ trait Common
     /**
      * 规定元素的 tab 键次序。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getTabIndex()
     {
@@ -294,7 +294,7 @@ trait Common
     /**
      * 读取title属性
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getTitle()
     {
@@ -314,7 +314,7 @@ trait Common
     /**
      * 规定是否应该翻译元素内容。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getTranslate()
     {

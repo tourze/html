@@ -46,7 +46,7 @@ class Input extends Tag implements InlineElement
     protected $_tagClosed = false;
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAccept()
     {
@@ -62,7 +62,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAlt()
     {
@@ -78,7 +78,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoComplete()
     {
@@ -94,7 +94,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoFocus()
     {
@@ -110,7 +110,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getChecked()
     {
@@ -126,7 +126,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDisabled()
     {
@@ -142,7 +142,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {
@@ -158,7 +158,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormAction()
     {
@@ -174,7 +174,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormEncType()
     {
@@ -190,7 +190,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormMethod()
     {
@@ -206,7 +206,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormNovalidate()
     {
@@ -222,7 +222,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormTarget()
     {
@@ -238,7 +238,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHeight()
     {
@@ -254,7 +254,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getList()
     {
@@ -270,7 +270,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMax()
     {
@@ -286,7 +286,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMaxLength()
     {
@@ -302,7 +302,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMin()
     {
@@ -318,7 +318,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMultiple()
     {
@@ -334,7 +334,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -350,7 +350,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getPattern()
     {
@@ -366,7 +366,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getPlaceholder()
     {
@@ -382,7 +382,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getReadonly()
     {
@@ -398,7 +398,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRequired()
     {
@@ -414,7 +414,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSize()
     {
@@ -430,7 +430,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {
@@ -446,7 +446,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getStep()
     {
@@ -462,7 +462,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {
@@ -478,7 +478,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getValue()
     {
@@ -494,7 +494,7 @@ class Input extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {

@@ -15,7 +15,7 @@ trait InternetExplorerAttributes
      *
      * @param $name
      *
-     * @return null|string|array
+     * @return string|array
      */
     protected function getAttribute($name)
     {

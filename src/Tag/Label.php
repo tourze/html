@@ -17,7 +17,7 @@ class Label extends Tag implements InlineElement
     protected $_tagName = 'label';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFor()
     {
@@ -33,7 +33,7 @@ class Label extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {

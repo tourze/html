@@ -22,7 +22,7 @@ class Frame extends Tag implements TopElement
 {
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMarginHeight()
     {
@@ -38,7 +38,7 @@ class Frame extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMarginWidth()
     {
@@ -54,7 +54,7 @@ class Frame extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -70,7 +70,7 @@ class Frame extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getNoResize()
     {
@@ -86,7 +86,7 @@ class Frame extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getScrolling()
     {
@@ -102,7 +102,7 @@ class Frame extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {

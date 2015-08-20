@@ -32,7 +32,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoFocus()
     {
@@ -48,7 +48,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDisabled()
     {
@@ -64,7 +64,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {
@@ -80,7 +80,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormAction()
     {
@@ -96,7 +96,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormEncType()
     {
@@ -112,7 +112,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormMethod()
     {
@@ -128,7 +128,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormNovalidate()
     {
@@ -144,7 +144,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFormTarget()
     {
@@ -160,7 +160,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -176,7 +176,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {
@@ -192,7 +192,7 @@ class Button extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getValue()
     {

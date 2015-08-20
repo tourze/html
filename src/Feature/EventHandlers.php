@@ -17,7 +17,7 @@ trait EventHandlers
      *
      * @param $name
      *
-     * @return null|string|array
+     * @return string|array
      */
     protected function getAttribute($name)
     {
@@ -36,7 +36,7 @@ trait EventHandlers
     /**
      * 图像的加载被中断。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getOnAbort()
     {
@@ -56,7 +56,7 @@ trait EventHandlers
     /**
      * 元素失去焦点
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getOnBlur()
     {
@@ -76,7 +76,7 @@ trait EventHandlers
     /**
      * 域的内容被改变
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getOnChange()
     {
@@ -96,7 +96,7 @@ trait EventHandlers
     /**
      * 当用户点击某个对象时调用的事件句柄
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getOnClick()
     {

@@ -21,7 +21,7 @@ class Audio extends Tag implements InlineElement
     protected $_tagName = 'audio';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoPlay()
     {
@@ -37,7 +37,7 @@ class Audio extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getControls()
     {
@@ -53,7 +53,7 @@ class Audio extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getLoop()
     {
@@ -69,7 +69,7 @@ class Audio extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMuted()
     {
@@ -85,7 +85,7 @@ class Audio extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getPreLoad()
     {
@@ -101,7 +101,7 @@ class Audio extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {

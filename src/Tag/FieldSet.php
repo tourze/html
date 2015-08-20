@@ -20,7 +20,7 @@ class FieldSet extends Tag implements BlockElement
     protected $_tagName = 'fieldset';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDisabled()
     {
@@ -36,7 +36,7 @@ class FieldSet extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {
@@ -52,7 +52,7 @@ class FieldSet extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {

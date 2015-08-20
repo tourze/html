@@ -17,7 +17,7 @@ class Ins extends Tag implements InlineElement
     protected $_tagName = 'ins';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCite()
     {
@@ -33,7 +33,7 @@ class Ins extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDatetime()
     {

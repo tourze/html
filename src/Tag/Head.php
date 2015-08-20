@@ -17,7 +17,7 @@ class Head extends Tag implements TopElement
     protected $_tagName = 'head';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getProfile()
     {

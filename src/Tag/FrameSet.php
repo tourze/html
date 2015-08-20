@@ -15,7 +15,7 @@ class FrameSet extends Tag implements TopElement
 {
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCols()
     {
@@ -31,7 +31,7 @@ class FrameSet extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRows()
     {

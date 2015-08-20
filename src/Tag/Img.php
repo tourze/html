@@ -22,7 +22,7 @@ class Img extends Tag implements InlineElement
     protected $_tagName = 'img';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAlt()
     {
@@ -38,7 +38,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {
@@ -54,7 +54,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHeight()
     {
@@ -70,7 +70,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getIsMap()
     {
@@ -86,7 +86,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getLongDesc()
     {
@@ -102,7 +102,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getUseMap()
     {
@@ -118,7 +118,7 @@ class Img extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {

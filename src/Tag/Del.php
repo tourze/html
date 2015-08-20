@@ -17,7 +17,7 @@ class Del extends Tag implements InlineElement
     protected $_tagName = 'del';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCite()
     {
@@ -33,7 +33,7 @@ class Del extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDatetime()
     {

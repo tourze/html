@@ -16,7 +16,7 @@ class Pre extends Tag implements BlockElement
     protected $_tagName = 'pre';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {

@@ -14,7 +14,7 @@ use tourze\Html\Tag;
  * @property mixed media    规定被链接文档是为何种媒介/设备优化的
  * @property mixed rel      规定当前文档与被链接文档之间的关系
  * @property mixed target   规定在何处打开链接文档
- * @property mixed type     规定被链接文档的的 MIME 类型
+ * @property mixed type     规定被链接文档的的MIME类型
  */
 class A extends Tag implements InlineElement
 {
@@ -24,7 +24,7 @@ class A extends Tag implements InlineElement
     /**
      * H5的新属性，规定被下载的超链接目标
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getDownload()
     {
@@ -44,7 +44,7 @@ class A extends Tag implements InlineElement
     /**
      * 读取class属性
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getHref()
     {
@@ -64,7 +64,7 @@ class A extends Tag implements InlineElement
     /**
      * 规定被链接文档的语言
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getHrefLang()
     {
@@ -84,7 +84,7 @@ class A extends Tag implements InlineElement
     /**
      * 规定被链接文档是为何种媒介/设备优化的。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getMedia()
     {
@@ -104,7 +104,7 @@ class A extends Tag implements InlineElement
     /**
      * 规定当前文档与被链接文档之间的关系。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getRel()
     {
@@ -124,7 +124,7 @@ class A extends Tag implements InlineElement
     /**
      * 规定在何处打开链接文档。
      *
-     * @return null|string|array
+     * @return string|array
      */
     public function getTarget()
     {
@@ -142,7 +142,7 @@ class A extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {
@@ -160,7 +160,7 @@ class A extends Tag implements InlineElement
     /**
      * @inheritdoc
      */
-    protected function render()
+    public function render()
     {
         // 自动添加body段
         if ( ! $this->_innerBody)

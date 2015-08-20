@@ -17,7 +17,7 @@ class Html extends Tag implements TopElement
     protected $_tagName = 'html';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getManifest()
     {
@@ -33,7 +33,7 @@ class Html extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getXmlns()
     {

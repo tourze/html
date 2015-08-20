@@ -19,7 +19,7 @@ class Embed extends Tag implements BlockElement
     protected $_tagName = 'embed';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHeight()
     {
@@ -35,7 +35,7 @@ class Embed extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {
@@ -51,7 +51,7 @@ class Embed extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {
@@ -67,7 +67,7 @@ class Embed extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {

@@ -16,7 +16,7 @@ class Q extends Tag implements InlineElement
     protected $_tagName = 'q';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCite()
     {

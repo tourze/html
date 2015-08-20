@@ -22,7 +22,7 @@ class Base extends Tag implements TopElement
     protected $_tagClosed = false;
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHref()
     {
@@ -38,7 +38,7 @@ class Base extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getTarget()
     {

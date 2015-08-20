@@ -20,7 +20,7 @@ class Ol extends Tag implements BlockElement
     protected $_tagName = 'ol';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getReversed()
     {
@@ -36,7 +36,7 @@ class Ol extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getStart()
     {
@@ -52,7 +52,7 @@ class Ol extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {

@@ -16,7 +16,7 @@ class Bdo extends Tag implements InlineElement
     protected $_tagName = 'bdo';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDir()
     {

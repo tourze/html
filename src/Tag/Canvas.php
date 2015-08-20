@@ -17,7 +17,7 @@ class Canvas extends Tag implements InlineElement
     protected $_tagName = 'canvas';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getHeight()
     {
@@ -33,7 +33,7 @@ class Canvas extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {

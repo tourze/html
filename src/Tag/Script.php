@@ -28,7 +28,7 @@ class Script extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAsync()
     {
@@ -44,7 +44,7 @@ class Script extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCharset()
     {
@@ -60,7 +60,7 @@ class Script extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDefer()
     {
@@ -76,7 +76,7 @@ class Script extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSrc()
     {
@@ -92,7 +92,7 @@ class Script extends Tag implements TopElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getType()
     {

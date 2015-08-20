@@ -21,7 +21,7 @@ class Form extends Tag implements BlockElement
 {
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAcceptCharset()
     {
@@ -37,7 +37,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAction()
     {
@@ -53,7 +53,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoComplete()
     {
@@ -69,7 +69,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getEncType()
     {
@@ -85,7 +85,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMethod()
     {
@@ -101,7 +101,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -117,7 +117,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getNoValidate()
     {
@@ -133,7 +133,7 @@ class Form extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getTarget()
     {

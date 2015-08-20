@@ -26,7 +26,7 @@ class TextArea extends Tag implements InlineElement
     protected $_tagName = 'textarea';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getAutoFocus()
     {
@@ -42,7 +42,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCols()
     {
@@ -58,7 +58,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getDisabled()
     {
@@ -74,7 +74,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getForm()
     {
@@ -90,7 +90,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getMaxLength()
     {
@@ -106,7 +106,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getName()
     {
@@ -122,7 +122,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getPlaceholder()
     {
@@ -138,7 +138,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getReadonly()
     {
@@ -154,7 +154,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRequired()
     {
@@ -170,7 +170,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRows()
     {
@@ -186,7 +186,7 @@ class TextArea extends Tag implements InlineElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWrap()
     {

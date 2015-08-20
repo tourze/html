@@ -22,7 +22,7 @@ class Table extends Tag implements BlockElement
     protected $_tagName = 'table';
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getBorder()
     {
@@ -38,7 +38,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCellPadding()
     {
@@ -54,7 +54,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getCellSpacing()
     {
@@ -70,7 +70,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getFrame()
     {
@@ -86,7 +86,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getRules()
     {
@@ -102,7 +102,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getSummary()
     {
@@ -118,7 +118,7 @@ class Table extends Tag implements BlockElement
     }
 
     /**
-     * @return null|string|array
+     * @return string|array
      */
     public function getWidth()
     {
