@@ -95,8 +95,8 @@ class Html extends Object
      *
      *     echo Html::chars($username);
      *
-     * @param  string  $value  要转换的字符串
-     * @param  boolean $encode 再编码已经存在的实体
+     * @param  string $value  要转换的字符串
+     * @param  bool   $encode 再编码已经存在的实体
      * @return string
      */
     public static function chars($value, $encode = true)
@@ -109,9 +109,9 @@ class Html extends Object
      *
      *     echo Html::entities($username);
      *
-     * @param   string  $value  要转换的字符串
-     * @param   boolean $encode 重复转换编码
-     * @return  string
+     * @param  string $value  要转换的字符串
+     * @param  bool   $encode 重复转换编码
+     * @return string
      */
     public static function entities($value, $encode = true)
     {
@@ -123,10 +123,10 @@ class Html extends Object
      *
      *     echo Html::anchor('/user/profile', '个人信息');
      *
-     * @param   string $uri        URL
-     * @param   string $title      提示文本
-     * @param   array  $attributes 属性
-     * @return  string
+     * @param  string $uri        URL
+     * @param  string $title      提示文本
+     * @param  array  $attributes 属性
+     * @return string
      */
     public static function anchor($uri, $title = null, array $attributes = null)
     {
@@ -143,11 +143,11 @@ class Html extends Object
     /**
      * 创建一个style标签，引用css
      *
-     *     echo HTML::style('media/css/screen.css');
+     *     echo Html::style('media/css/screen.css');
      *
-     * @param   string  $file       文件名
-     * @param   array   $attributes 默认属性
-     * @return  string
+     * @param  string $file       文件名
+     * @param  array  $attributes 默认属性
+     * @return string
      */
     public static function style($file, array $attributes = null)
     {
@@ -161,9 +161,9 @@ class Html extends Object
     /**
      * 创建一个script标签
      *
-     * @param   string  $file       文件名
-     * @param   array   $attributes 默认属性
-     * @return  string
+     * @param  string $file       文件名
+     * @param  array  $attributes 默认属性
+     * @return string
      */
     public static function script($file, array $attributes = null)
     {
@@ -176,9 +176,9 @@ class Html extends Object
     /**
      * 创建一个img标签
      *
-     * @param   string  $file       文件名
-     * @param   array   $attributes 默认属性
-     * @return  string
+     * @param  string $file       文件名
+     * @param  array  $attributes 默认属性
+     * @return string
      */
     public static function image($file, array $attributes = null)
     {
