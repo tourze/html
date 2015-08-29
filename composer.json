@@ -1,12 +1,12 @@
 {
   "name": "tourze/html",
-  "description": "HTML助手方法",
+  "description": "途者框架-HTML助手方法",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "YwiSax",
-      "email": "25803471@qq.com"
+      "name": "tourze",
+      "email": "dev@tourze.com"
     }
   ],
   "require": {
@@ -18,6 +18,14 @@
     },
     "files": [
       "bootstrap.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "tourze\\Html\\": "src/"
+    },
+    "files": [
+      "bootstrap-dev.php"
     ]
   }
 }
