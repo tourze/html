@@ -11,5 +11,4 @@ use tourze\Base\Object;
  */
 class Widget extends Object
 {
-
 }

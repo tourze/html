@@ -9,5 +9,4 @@ namespace tourze\Html;
  */
 interface Element
 {
-
 }
