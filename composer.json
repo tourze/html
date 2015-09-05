@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "tourze/base": "dev-master"
+    "tourze/base": "^1.0"
   },
   "autoload": {
     "psr-4": {
@@ -22,7 +22,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "tourze\\Html\\": "src/"
+      "tourze\\Html\\": "tests/"
     },
     "files": [
       "bootstrap-dev.php"
