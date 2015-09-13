@@ -2,7 +2,7 @@
   "name": "tourze/html",
   "description": "途者框架-HTML助手方法",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "tourze",
